@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>error</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<style type="text/css">
+			.sos{ width:652px; height:92px; position: absolute; top:50%; left:50%; margin-left:-326px; margin-top:-230px; font-family:"微软雅黑 Light", "微软雅黑";}
+			.sos .errormessage{ font-size:18px; color:#666; text-align:center; margin-top:30px;}
+		</style>
+	</head>
+	<body>
+		<body>
+			<div class="sos">
+				<div><img src="../../static/img/500.png" th:src="@{/img/500.png}" width="652" height="321" /></div>
+				<div class="errormessage" th:text="${message}" />
+			</div>
+		</body>
+	</body>
+</html>

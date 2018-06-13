@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="utf-8">
+		<title>注册账户</title>
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta http-equiv="Access-Control-Allow-Origin" content="*">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="format-detection" content="telephone=no">
+		<link rel="stylesheet" href="../../static/layui/css/layui.css" th:href="@{/layui/css/layui.css}" media="all" />
+		<link rel="stylesheet" href="//at.alicdn.com/t/font_637991_sud8niwn1plm1jor.css" media="all" />
+		<link href="../../static/css/login.css" th:href="@{/css/login.css}" rel="stylesheet" />
+	</head>
+	
+	<body>
+		
+		<div class="layadmin-user-login layadmin-user-display-show">
+	        <div class="layadmin-user-login-main">
+	            <div class="layadmin-user-login-box layadmin-user-login-header">
+	                <h2>注册账户</h2>
+	            </div>
+	            <div class="layadmin-user-login-box layadmin-user-login-body layui-form">
+	            	<div class="layui-form-item">
+	                    <label class="layadmin-user-login-icon iconfont icon-youxiang"></label>
+	                    <input type="text" name="nickName" id="nickName" lay-verType="tips" autocomplete="off" placeholder="姓名" class="layui-input">
+	                </div>
+	                <div class="layui-form-item">
+	                    <label class="layadmin-user-login-icon iconfont icon-youxiang"></label>
+	                    <input type="text" name="idCard" id="idCard" lay-verType="tips" autocomplete="off" placeholder="身份证号码" class="layui-input">
+	                </div>
+	                <div class="layui-form-item">
+	                    <label class="layadmin-user-login-icon iconfont icon-mima" for="password"></label>
+	                    <input type="password" name="password" id="password" lay-verType="tips" autocomplete="off" placeholder="含有字母、数字、特殊符号两种以上的密码" class="layui-input">
+	                </div>
+	                <div class="layui-form-item">
+	                    <label class="layadmin-user-login-icon iconfont icon-mima" for="repassword"></label>
+	                    <input type="password" name="repassword" id="repassword" lay-verType="tips" autocomplete="off" placeholder="确认密码" class="layui-input">
+	                </div>
+	                <div class="layui-form-item">
+	                    <button class="layui-btn layui-btn-fluid" lay-submit lay-filter="register-submit">注 册</button>
+	                </div>
+	                <div class="layui-trans layui-form-item layadmin-user-login-other">
+	                    <a href="/admin/login" class="layadmin-user-jump-change layadmin-link layui-hide-xs">用已有帐号登入</a>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+		
+		<script type="text/javascript" src="../../static/layui/layui.js" th:src="@{/layui/layui.js}"></script>
+		<script type="text/javascript" src="../../static/js/jquery-3.2.1.min.js" th:src="@{/js/jquery-3.2.1.min.js}"></script>
+		<script type="text/javascript" src="../../static/js/main.js" th:src="@{/js/main.js}"></script>
+		<script type="text/javascript" src="../../static/js/common.js" th:src="@{/js/common.js}"></script>
+	    <script type="text/javascript" src="../../static/js/register.js" th:src="@{/js/register.js}"></script>
+		
+	</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>404</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<style type="text/css">
+			.sos{width: 500px;height: 200px;margin: 300px auto 0px auto;font-family:"微软雅黑 Light", "微软雅黑";}
+			.sos .nofind{ font-size:18px; color:#666; text-align:center; margin-top:30px;}
+			.sos .imgdiv{text-align: center;}
+		</style>
+	</head>
+	<body>
+		<div class="sos">
+			<div class="imgdiv">
+				<img src="../../static/img/404.png" th:src="@{/img/404.png}" width="254" height="92" />
+			</div>
+			<div class="nofind">啊哦~一不小心闯进了未知领域</div>
+		</div>
+	</body>
+</html>
