@@ -1,0 +1,79 @@
+@charset "UTF-8";
+html,body{width:100%; height:100%; display: block;}
+
+
+.x-banner {
+		  background: url("../img/bg.jpg") no-repeat center;
+		  width: 100%;
+		  height: 100%;
+			background-size: cover;
+			-webkit-background-size: cover;
+			-o-background-size: cover;
+			zoom: 1;
+		}
+		@media (min-width: 768px) {
+			.x-login-box {
+			  width: 280px;
+			  margin: 100px;
+			  float: right;
+			}
+			.x-info-box-icon {
+				font-size: 90px;
+			}
+		}
+		@media (max-width: 767px) {
+			.x-login-box {
+			  width: 280px;
+			  margin: 100px auto;
+			}
+			.info-box-icon {
+		    border-top-left-radius: 2px;
+		    border-top-right-radius: 0;
+		    border-bottom-right-radius: 0;
+		    border-bottom-left-radius: 2px;
+		    display: block;
+		    float: left;
+		    height: 70px;
+		    width: 70px;
+		    text-align: center;
+		    font-size: 35px;
+		    line-height: 70px;
+		    background: rgba(0,0,0,0.2);
+			}
+			.info-box-content {
+		    padding: 5px 10px;
+		    margin-left: 70px;
+			}
+			.x-info-box-icon {
+				font-size: 70px;
+			}
+		}
+		.x-index-section {
+		  padding-top: 30px;
+		  padding-bottom: 30px;
+		}
+		.x-desc {
+			font-weight: bold;
+			color: #aaa;
+		}
+		.x-ranking-no {
+			width: 40px;
+			height: 40px;
+			background-color: #ccc;
+			color: #fff;
+			text-align: center;
+			font-size: 20px;
+			line-height: 40px;
+			font-weight: bold;
+		}
+		.x-label-stacked div + div {
+			padding-top: 10px;
+		}
+		
+		
+		.login-box-body, .register-box-body {
+    background: #fff;
+    padding: 20px;
+    border-top: 0;
+    color: #666;
+}
